@@ -1,0 +1,139 @@
+{
+    "products": [
+        {
+            "name": "C .Fried Chicken 1pc",
+            "price": 199.00,
+            "inclusions": [
+                "1 spicy", 
+                "1 regular fries",
+                "1 regular coke"
+            ],
+            "image": "assets/img/Products/Product1.png",
+            "category": 1
+        },
+        {
+            "name": "D .Fried Chicken 2pcs",
+            "price": 219.00,
+            "inclusions": [
+                "1 original",
+                "1 spicy",
+                "2 regular coke",
+                "1 coke medium",
+                "1 exta rice",
+                "1 addon Lettuce 1g"
+            ],
+            "image": "assets/img/Products/DFriedChicken2pcs.jpg",
+            "category": 1
+        },
+        {
+            "name": "E .Fried Chicken - 1pc",
+            "price": 100.00,
+            "inclusions": [
+                "1 original",
+                "2 regular coke",
+                "1 coke medium",
+                "1 exta rice",
+                "1 addon Lettuce 1g"
+            ],
+            "image": "assets/img/Products/E.FriedChicken1pc.webp",
+            "category": 1
+        },
+        {
+            "name": "Burger",
+            "price": 122.00,
+            "image": "assets/img/Products/NoPhoto.jpg",
+            "category": 2
+        },
+        {
+            "name": "Sprite Large",
+            "price": 45.00,
+            "image": "assets/img/Products/NoPhoto.jpg",
+            "category": 3
+        },
+        {
+            "name": "Fries Large",
+            "price": 65.00,
+            "image": "assets/img/Products/NoPhoto.jpg",
+            "category": 5
+        },
+        {
+            "name": "Ice Tea Large",
+            "price": 30.00,
+            "image": "assets/img/Products/NoPhoto.jpg",
+            "category": 3
+        },
+        {
+            "name": "Ice cream Large",
+            "price": 40.00,
+            "image": "assets/img/Products/NoPhoto.jpg",
+            "category": 4
+        },
+        {
+            "name": "Spicy Buffalo Sauce",
+            "price": 10.00,
+            "image": "assets/img/Products/NoPhoto.jpg",
+            "category": 6
+        },
+        {
+            "name": "Spoon and Fork",
+            "price": 0.00,
+            "image": "assets/img/Products/spoon-fork.png",
+            "category": 7
+        }
+    ],
+    "categories": [
+        {"id": 1, "key": "chicken", "title": "Chicken"},
+        {"id": 2, "key": "burgers",  "title": "Burgers"},
+        {"id": 3, "key": "drinks",  "title": "Drinks"},
+        {"id": 4, "key": "desserts",  "title": "Desserts"},
+        {"id": 5, "key": "fries",  "title": "Fries"},
+        {"id": 6, "key": "sides",  "title": "Sides"},
+        {"id": 7, "key": "packaging",  "title": "Packaging & Others"}
+    ],
+    "orders": [
+        {
+            "orderno": "321",
+            "tableno": "9",
+            "product": "C .Fried Chicken 1pc",
+            "customer": "Juan Doe",
+            "noitems": "11",
+            "prereceipt": "2",
+            "date": "07/10/2024",
+            "time": "2:10pm",
+            "pax": "4",
+            "total": "409.00",
+            "cashier": "Benjie Dy",
+            "etype": "Dine",
+            "counter": 1,
+            "status": "OK",
+            "printedbillcount": 1,
+            "or": "N"
+        },
+        {
+            "orderno": "456",
+            "tableno": "23",
+            "product": "French Fries",
+            "customer": "Jean Doe",
+            "noitems": "2",
+            "prereceipt": "23",
+            "date": "08/10/2024",
+            "time": "6:10am",
+            "pax": "2",
+            "total": "109.00",
+            "cashier": "Benjie Dy",
+            "etype": "Dine",
+            "counter": 1,
+            "status": "OK",
+            "printedbillcount": 1,
+            "or": "N"
+        }
+    ],
+    "orderdetails": [
+        {
+            "name": "Spicy"
+        },
+        {
+            "name": "Original"
+        }
+    ]
+}
